@@ -1,0 +1,51 @@
+.selector {
+    line-height: 1.2;
+    letter-spacing: 0.1px;
+    color: #29235e;
+    width: 100% !important;
+    max-width: 100% !important;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+  .option {
+    line-height: 1.2;
+    letter-spacing: 0.1px;
+    color: #29235e;
+    width: 100% !important;
+    max-width: 100% !important;
+    justify-content: center;
+    // height: 20px;
+  }
+  .city_pane {
+    padding-top: 7px;
+}
+.city-logo {
+    text-align: center;
+    height: 68px;
+    width: 68px;
+    border: 2px solid #ccc;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+.city-logo.select{
+    border: 2px solid #10dc60;
+}
+.city-logo ion-icon{
+    font-size: 35px;
+}
+.city-name {
+    text-align: center;
+}
+.schedule_pane{
+    text-align: center;
+    padding: 10px;
+}
+.schedule_pane h4{
+    font-size: 18px;
+}
+.schedule_pane.today{
+    background: #ccc;
+}

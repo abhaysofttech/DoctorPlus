@@ -37,10 +37,14 @@
               },
               {
                 "input": "src/global.scss"
+              },
+              {
+                "input": "./node_modules/bootstrap/dist/css/bootstrap.min.css"  
               }
             ],
-            "scripts": [],
-            "es5BrowserSupport": true
+            "scripts": [
+             
+            ]
           },
           "configurations": {
             "production": {

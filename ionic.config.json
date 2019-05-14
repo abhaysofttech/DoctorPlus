@@ -1,5 +1,8 @@
 {
   "name": "DoctorPlus",
-  "integrations": {},
-  "type": "angular"
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "ae7dd96b"
 }
