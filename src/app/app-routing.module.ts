@@ -16,7 +16,10 @@ const routes: Routes = [
     loadChildren: './list/list.module#ListPageModule'
   },
   { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardPageModule' },
-  { path: 'search', loadChildren: './search/search.module#SearchPageModule' }
+  { path: 'search', loadChildren: './search/search.module#SearchPageModule' },
+  { path: 'doctor-list', loadChildren: './doctor-list/doctor-list.module#DoctorListPageModule' },
+  { path: 'doctor-details', loadChildren: './doctor-details/doctor-details.module#DoctorDetailsPageModule' },
+  { path: 'hospital-list', loadChildren: './hospital-list/hospital-list.module#HospitalListPageModule' }
 ];
 
 @NgModule({

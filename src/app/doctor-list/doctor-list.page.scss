@@ -1,0 +1,47 @@
+.borderRed{border: 1px solid red;}
+.borderBlack{border: 1px solid black;}
+.borderYellow{border: 2px solid yellow;}
+.profilepic{
+    text-align: center;
+    height: 90px;
+    width: 90px;
+    border: 2px solid #ccc;
+    // -ms-flex-pack: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+.doctor-edu{
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+/* mixin for multiline */
+.block-with-text {
+    overflow: hidden;
+    position: relative;
+    line-height: 1.2em;
+    max-height: 35px;
+    text-align: justify;
+    margin-right: -1em;
+    padding-right: 1em;
+  }
+  .block-with-text:before {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .block-with-text:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: white;
+  }
+
+  
