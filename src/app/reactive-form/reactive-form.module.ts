@@ -1,18 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { HospitalDetailsPage } from './hospital-details.page';
-import { ComponentsModule } from '../components/components.module'
+import { ReactiveFormPage } from './reactive-form.page';
 import { Ionic4DatepickerModule } from '@logisticinfotech/ionic4-datepicker';
 
 const routes: Routes = [
   {
     path: '',
-    component: HospitalDetailsPage
+    component: ReactiveFormPage
   }
 ];
 
@@ -20,11 +19,11 @@ const routes: Routes = [
   imports: [
     CommonModule,
     FormsModule,
+    ReactiveFormsModule,
     IonicModule,
     Ionic4DatepickerModule,
-    RouterModule.forChild(routes),
-    ComponentsModule
+    RouterModule.forChild(routes)
   ],
-  declarations: [HospitalDetailsPage]
+  declarations: [ReactiveFormPage]
 })
-export class HospitalDetailsPageModule {}
+export class ReactiveFormPageModule {}

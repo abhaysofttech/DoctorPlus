@@ -1,12 +1,13 @@
 import { Component, OnInit } from "@angular/core";
-import { Ionic4DatepickerModalComponent } from "@logisticinfotech/ionic4-datepicker";
+import { Ionic4DatepickerModalComponent } from '@logisticinfotech/ionic4-datepicker';
 import { ModalController } from "@ionic/angular";
+
 @Component({
-  selector: "app-home",
-  templateUrl: "home.page.html",
-  styleUrls: ["home.page.scss"]
+  selector: "app-datepicker-button",
+  templateUrl: "./datepicker-button.page.html",
+  styleUrls: ["./datepicker-button.page.scss"]
 })
-export class HomePage {
+export class DatepickerButtonPage implements OnInit {
   datePickerObjPtBr: any = {};
   datePickerObj: any = {};
   selectedDate;

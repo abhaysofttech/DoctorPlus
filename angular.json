@@ -42,9 +42,8 @@
                 "input": "./node_modules/bootstrap/dist/css/bootstrap.min.css"  
               }
             ],
-            "scripts": [
-             
-            ]
+            "scripts": [],
+            "es5BrowserSupport": true
           },
           "configurations": {
             "production": {

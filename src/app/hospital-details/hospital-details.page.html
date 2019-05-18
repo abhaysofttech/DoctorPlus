@@ -36,8 +36,11 @@
           <ion-button shape="round" (click)="bookAppointment('/book-appointment')">
             <ion-icon name="home"></ion-icon> Book Appointment
           </ion-button>
-        </div>
-      </div>
+          <!-- <ion-datetime displayFormat="MM/DD/YYYY HH:mm" pickerFormat="MMM D:HH:mm" [(ngModel)]="event.startTime" [min]="minDate"></ion-datetime> -->
+          <ion-input readonly [(ngModel)]="mydate" [liIonic4Datepicker]="datePickerObj" (ionchange)="myFunction()">
+          </ion-input>
+          </div>
+          </div>
     </ion-card-content>
   </ion-card>
 

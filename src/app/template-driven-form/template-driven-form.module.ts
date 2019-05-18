@@ -5,14 +5,13 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { HospitalDetailsPage } from './hospital-details.page';
-import { ComponentsModule } from '../components/components.module'
+import { TemplateDrivenFormPage } from './template-driven-form.page';
 import { Ionic4DatepickerModule } from '@logisticinfotech/ionic4-datepicker';
 
 const routes: Routes = [
   {
     path: '',
-    component: HospitalDetailsPage
+    component: TemplateDrivenFormPage
   }
 ];
 
@@ -22,9 +21,8 @@ const routes: Routes = [
     FormsModule,
     IonicModule,
     Ionic4DatepickerModule,
-    RouterModule.forChild(routes),
-    ComponentsModule
+    RouterModule.forChild(routes)
   ],
-  declarations: [HospitalDetailsPage]
+  declarations: [TemplateDrivenFormPage]
 })
-export class HospitalDetailsPageModule {}
+export class TemplateDrivenFormPageModule {}
