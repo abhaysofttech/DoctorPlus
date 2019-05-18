@@ -1,8 +1,9 @@
-<ion-header>
+<!-- <ion-header>
   <ion-toolbar>
     <ion-title>Welcome to Advik Clinic</ion-title>
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
+<app-header [pageTitle]="pageTitle"></app-header>
 
 <ion-content no-padding>
   <ion-card>
@@ -32,7 +33,7 @@
       <app-hospital-time></app-hospital-time>
       <div class="row even-margin-10">
         <div class="col-12 text-center">
-          <ion-button shape="round">
+          <ion-button shape="round" (click)="bookAppointment('/book-appointment')">
             <ion-icon name="home"></ion-icon> Book Appointment
           </ion-button>
         </div>
@@ -69,19 +70,19 @@
             <div class="profilepic borderBlack">
             </div>
             <div class="doctor-name">
-                <h6>Dr. Advik Narnaware</h6>
-                <h6 class="doctor-edu">MBBS</h6>
-                <h6 class="doctor-edu">Clild Specialities</h6>
-              </div>
+              <h6>Dr. Advik Narnaware</h6>
+              <h6 class="doctor-edu">MBBS</h6>
+              <h6 class="doctor-edu">Clild Specialities</h6>
+            </div>
           </div>
           <div class="doctor-profile">
             <div class="profilepic borderBlack">
             </div>
             <div class="doctor-name">
-                <h6>Dr. Advik Narnaware</h6>
-                <h6 class="doctor-edu">MBBS</h6>
-                <h6 class="doctor-edu">Clild Specialities</h6>
-              </div>
+              <h6>Dr. Advik Narnaware</h6>
+              <h6 class="doctor-edu">MBBS</h6>
+              <h6 class="doctor-edu">Clild Specialities</h6>
+            </div>
           </div>
         </div>
 

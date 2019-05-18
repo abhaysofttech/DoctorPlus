@@ -1,0 +1,11 @@
+<ion-header class="app-header">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button *ngIf="canGoBack" defaultHref="previousUrl"></ion-back-button>
+        </ion-buttons>
+        <ion-title>{{pageTitle}}</ion-title>
+        <ion-buttons slot="end">
+            <ion-menu-button *ngIf="sideMenu"></ion-menu-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
