@@ -19,7 +19,8 @@ const routes: Routes = [
   { path: 'search', loadChildren: './search/search.module#SearchPageModule' },
   { path: 'doctor-list', loadChildren: './doctor-list/doctor-list.module#DoctorListPageModule' },
   { path: 'doctor-details', loadChildren: './doctor-details/doctor-details.module#DoctorDetailsPageModule' },
-  { path: 'hospital-list', loadChildren: './hospital-list/hospital-list.module#HospitalListPageModule' }
+  { path: 'hospital-list', loadChildren: './hospital-list/hospital-list.module#HospitalListPageModule' },
+  { path: 'hospital-details', loadChildren: './hospital-details/hospital-details.module#HospitalDetailsPageModule' }
 ];
 
 @NgModule({

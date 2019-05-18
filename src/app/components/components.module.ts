@@ -10,6 +10,6 @@ import { HospitalTimeComponent } from './hospital-time/hospital-time.component';
     IonicModule,
     CommonModule
   ],
-  exports:[HospitalSliderComponent]
+  exports:[HospitalSliderComponent,HospitalTimeComponent]
 })
 export class ComponentsModule { }
